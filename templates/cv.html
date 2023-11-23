@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #FFF8F0;
+        }
+        .name {
+            width: 100%;
+            height: 400px;
+            background: #FFC554;
+            transform: skewY(-5deg);
+            position: relative;
+        }
+        .name .content {
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            left: 25%;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .name .content .p-1 {
+            color: #FFF8F0;
+            font-family: "Baloo Tamma 2", sans-serif;
+            font-weight: bolder;
+            font-size: 65px;
+            transform: skewY(-5deg);
+            margin-bottom: 0;
+        }
+        .name .content .p-2 {
+            color: #FFF8F0;
+            font-family: "Baloo Tamma 2", sans-serif;
+            font-size: 35px;
+            transform: skewY(-5deg);
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .name .img {
+            position: absolute;
+            top: 18%;
+            right: 5%;
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .name .img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .info {
+            width: 90%;
+            margin: 5% auto;
+            padding: 20px;
+            background: #FFC554;
+            border-radius: 20px;
+        }
+        .info .tituloSeccion {
+            color: #FFF8F0;
+            font-family: "Baloo Tamma 2", sans-serif;
+            font-size: 28px;
+            text-align: center;
+            font-weight: bolder;
+            border-bottom: 2px #FFF8F0 dashed;
+            margin-bottom: 20px;
+        }
+        .info .tituloInfo {
+            color: #FFF8F0;
+            font-family: "Baloo Tamma 2", sans-serif;
+            font-weight: bolder;
+            font-size: 18px;
+            display: inline;
+            margin-right: 20px;
+        }
+        .info .infoInfo {
+            color: #392F5A;
+            font-family: "Baloo Tamma 2", sans-serif;
+            font-weight: normal;
+            font-size: 18px;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <div class="name">
+        <div class="img">
+            <img src="https://avatars.githubusercontent.com/u/150302437?v=4" alt="Foto de perfil">
+        </div>
+        <div class="content">
+            <p class="p-1">Abraham Becker Orellana Antón</p>
+            <p class="p-2">19 años, Bachiller Contable</p>
+        </div>
+    </div>
+    <div class="info">
+        <p class="tituloSeccion">Información Personal</p>
+        <p class="tituloInfo">Nombre y Apellido:</p>
+        <p class="infoInfo">Abraham Becker Orellana Antón</p><br>
+        <p class="tituloInfo">Teléfono:</p>
+        <p class="infoInfo">0961115418</p><br>
+        <p class="tituloInfo">Correo:</p>
+        <p class="infoInfo">abraham.orellanaa@ug.edu.ec</p><br>
+        <p class="tituloInfo">Fecha de nacimiento:</p>
+        <p class="infoInfo">11 de Noviembre del 2003</p><br>
+        <p class="tituloInfo">N° Cédula:</p>
+        <p class="infoInfo">0955778618</p><br>
+        <p class="tituloInfo">Dirección:</p>
+        <p class="infoInfo">Coop. Pancho Jacome mz.265 s.11-4</p><br>
+        <p class="tituloInfo">Pasa tiempo:</p>
+        <p class="infoInfo">Futbol, Matemáticas</p><br>
+    </div>
+    <div class="info">
+        <p class="tituloSeccion">Experiencia Laboral</p>
+        <p class="tituloInfo">Trabajo:</p>
+        <p class="infoInfo">No tengo experiencia, porque no trabajo</p>
+    </div>
+    <div class="info">
+        <p class="tituloSeccion">Lenguas</p>
+        <p class="tituloInfo">Inglés</p>
+        <p class="infoInfo">Nivel bajo</p>
+    </div>
+</body>
+</html>
