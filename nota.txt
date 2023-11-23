@@ -1,0 +1,50 @@
+--que informacion necesita para el clima???--
+--weather vamos a hacer descriptiom, icon, id--
+--feels_like, humidity, pressure, temp, temp_max, temp_min
+
+--python.exe pip install
+
+--prueba
+--clima--r
+--return clima.get("main")
+--return str(clima["main"]["temp"])
+
+
+--temperatura=str(clima["main"]["temp"])
+
+--icono= str(clima["weather"] [0] ["icono"])
+
+--descripcion= str(clima["weather"] [0] ["descripcion"])
+
+--r_json={
+    --"temperatura":temperatura
+    --"Descripcion":Descripcion
+    --"icono":icono
+
+--}
+--return render_template("weather.html", clima=r_json)
+
+
+--return temperatura, descripcion
+
+
+--Diccionario{}
+
+
+
+crad-tittle
+
+Ciudad: {{clima.ciudad}}
+
+Descripcion: {{clima.descripcion}}
+
+Temperatura: {{clima.descripcion}}
+
+video de jinjan
+
+en google 02n icono
+
+
+
+
+
